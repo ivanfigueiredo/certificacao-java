@@ -1,1 +1,4 @@
 out
+.idea
+*.class
+!/BlocoConstrucao/temp/classes/**
