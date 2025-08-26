@@ -1,4 +1,4 @@
-Tipo de Dados - Tipos Primitivos
+<h1>Tipo de Dados - Tipos Primitivos</h1>
 
 <table>
   <tr>
@@ -79,8 +79,10 @@ Assinado e não assinado: short e char
 Para o exame, você deve estar ciente de que shorte charestão intimamente relacionados, pois ambos são armazenados como tipos integrais com o mesmo comprimento de 16 bits. A principal diferença é que shorté signed , o que significa que divide seu intervalo entre inteiros positivos e negativos. Por outro lado, charé unsigned , o que significa que seu intervalo é estritamente positivo, incluindo 0.
 
 
+<p>
 double notAtStart = _1000.00;          // Não Compila </br>
 double notAtEnd = 1000.00_;            // Não Compila  </br>
 double notByDecimal = 1000_.00;        // Não Compila </br>
 double annoyingButLegal = 1_00_0.0_0;  // Feio, mas compila  </br>
 double reallyUgly = 1__________2;      // Também compila  </br>
+</p>
